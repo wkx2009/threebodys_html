@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>三体运动模拟v2</title>
+    <title>三体运动模拟器</title>
+    <meta name="keywords" content="三体运动模拟器,在线三体模拟,三颗行星运动模拟,开源三体模拟器,天体物理模拟">
     <link rel="icon" href="favicon.ico" sizes="32x32" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -85,8 +86,8 @@
 <body class="bg-gray-50 font-sans text-dark min-h-screen">
     <div class="container mx-auto px-4 py-8 max-w-6xl">
         <header class="mb-8 text-center">
-            <h1 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-dark mb-2">三体运动模拟</h1>
-            <p class="text-gray-600 max-w-2xl mx-auto">三个天体在引力相互作用下的运动模拟，带有边界约束防止天体逃逸</p>
+            <h1 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-dark mb-2">三体运动模拟器</h1>
+            <p class="text-gray-600 max-w-2xl mx-auto">三个天体在引力相互作用下的运动模拟，带有边界约束</p>
         </header>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -206,8 +207,9 @@
 
         <div class="mt-8 control-card p-6">
             <h2 class="text-xl font-semibold mb-4">关于三体运动</h2>
-            <p class="text-gray-700 mb-4">三体问题是指三个质量、初始位置和初始速度都为已知的可视为质点的天体，在相互之间万有引力的作用下的运动规律问题。与二体问题不同，三体问题没有通用的解析解，只能通过数值方法进行近似模拟。</p>
-            <p class="text-gray-700">由于三体系统具有混沌特性，初始条件的微小变化会导致系统演化的巨大差异，这也是刘慈欣科幻小说《三体》中三体文明面临生存危机的科学背景。</p>
+            <p class="text-gray-700 mb-4">三体问题是指三个质量、初始位置和初始速度都为已知的可视为质点的天体，在相互之间万有引力的作用下的运动规律问题。由于三体问题没有通用的解析解，所以每次改变初始条件结果都不同，大家可以随意尝试</p>
+            <p class="text-gray-700">由于本人对html等不太精通，所以本站部分由ai进行辅助制作，请见谅！如大佬有更多灵感的话可以尝试修改，源代码已开源</p>
+            <small class="text-gray-500">ps.感觉可以发呆的时候看</small>
         </div>
 
     </div>
@@ -749,9 +751,16 @@
         // 开始动画循环
         animate();
     </script>
-<footer class="bg-space-medium/80 backdrop-blur-md py-2 px-4 text-center text-sm opacity-80 z-10">
+    <!--
+<footer class="bg-gray-100/50 backdrop-blur-md py-2 px-4 text-center text-sm opacity-80 z-10">
     <p><a href="https://github.com/wkx2009/threebodys_html" target="_blank">三体运动模拟器</a></p>
     <p><a href="https://github.com/wkx2009" target="_blank">Powered by wkx2009</a></p>
+</footer>     -->
+
+<footer class="bg-gray-100/70 backdrop-blur-sm py-3 px-4 text-center text-sm text-gray-600 opacity-90 z-10">
+    <p class="mb-1"><a href="https://github.com/wkx2009/threebodys_html" target="_blank" class="hover:text-primary transition-colors">三体运动模拟器</a></p>
+    <p><a href="https://github.com/wkx2009" target="_blank" class="hover:text-primary transition-colors">Powered by wkx2009</a></p>
 </footer>
+
 </body>
 </html>
