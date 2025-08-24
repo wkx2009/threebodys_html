@@ -1,0 +1,6 @@
+User-agent:*
+Arrow:/
+Disallow:/LICENSE
+Disallow:/README.md
+Disallow:/threebody_v1.html
+Disallow:/BingSiteAuth.xml
