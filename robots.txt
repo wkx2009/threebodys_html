@@ -5,3 +5,4 @@ Disallow:/README.md
 Disallow:/threebody_v1.html
 Disallow:/BingSiteAuth.xml
 Disallow:/baidu_verify_codeva-VgLURpTsFb.html.html
+Sitemap:https://threebody.68j87.top/sitemap.xml
